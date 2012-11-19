@@ -3,6 +3,8 @@ Mandelbrot
 
 Sample implementations of Mandelbrot set calculations.
 
+![Mandelbrot set image][image]
+
 The [Mandelbrot set][1] is defined by a set of parameterized functions,
 
 f<sub>c</sub>(z) = z<sup>2</sup> + c
@@ -32,3 +34,4 @@ This should easy to implement using Actors, and it might be a fun benchmark
 for testing diffent sizes for the Actor pool.
 
 [1]: http://en.wikipedia.org/wiki/Mandelbrot_set
+[image]: http://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Mandel_zoom_00_mandelbrot_set.jpg/640px-Mandel_zoom_00_mandelbrot_set.jpg
