@@ -55,5 +55,6 @@ scala -cp . MandelbrotArtist
 
 
 [1]: http://en.wikipedia.org/wiki/Mandelbrot_set
-[image]: http://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Mandel_zoom_00_mandelbrot_set.jpg/640px-Mandel_zoom_00_mandelbrot_set.jpg
+[image]: https://raw.github.com/phx-softcrafties/Mandelbrot/master/sample.png
+[wikiimage]: http://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Mandel_zoom_00_mandelbrot_set.jpg/640px-Mandel_zoom_00_mandelbrot_set.jpg
 
