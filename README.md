@@ -33,5 +33,27 @@ point is decoupled, hence an embarassingly parallel algorithm is possible.
 This should easy to implement using Actors, and it might be a fun benchmark
 for testing diffent sizes for the Actor pool.
 
+Actors have not been implemented yet.
+
+Build and Compile
+-----------------
+
+Build with 
+```bash
+scalac -cp scalatest_2.9.0-1.8.jar MandelbrotTest.scala Mandelbrot.scala
+```
+
+Run unit tests with
+```bash
+scala -cp scalatest_2.9.0-1.8.jar org.scalatest.run MandelbrotSuite
+```
+
+Run code to generate 1280x800 image.png using
+```bash
+scala -cp . MandelbrotArtist
+```
+
+
 [1]: http://en.wikipedia.org/wiki/Mandelbrot_set
 [image]: http://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Mandel_zoom_00_mandelbrot_set.jpg/640px-Mandel_zoom_00_mandelbrot_set.jpg
+
